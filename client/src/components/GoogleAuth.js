@@ -8,7 +8,7 @@ class GoogleAuth extends React.Component {
       window.gapi.client
         .init({
           clientId:
-            "797401886567-9cumct9mrt3v2va409rasa7fa6fq02hh.apps.googleusercontent.com",
+            "683906666753-7tsp1o555igti70l14kvh2u1cqgqmnoa.apps.googleusercontent.com",
           scope: "email",
         })
         .then(() => {
@@ -48,7 +48,7 @@ class GoogleAuth extends React.Component {
       );
     } else {
       return (
-        <button onClick={this.onSignInClick} className="ui blue google button">
+        <button onClick={this.onSignInClick} className="ui red google button">
           <i className="google icon" />
           Sign In with Google
         </button>

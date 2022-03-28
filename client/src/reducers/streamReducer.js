@@ -1,12 +1,11 @@
 /* eslint-disable import/no-anonymous-default-export */
 import _ from "lodash";
-
 import {
-  CREATE_STREAM,
-  FETCH_STREAMS,
   FETCH_STREAM,
-  DELETE_STREAM,
+  FETCH_STREAMS,
+  CREATE_STREAM,
   EDIT_STREAM,
+  DELETE_STREAM,
 } from "../actions/types";
 
 export default (state = {}, action) => {
