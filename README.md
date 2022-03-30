@@ -1,3 +1,3 @@
 # Streamy
 
-A streaming web app made using React, Redux, Redux-form, React Thunk.
+A streaming web app made using React, Redux, Redux-form, Redux-Thunk, flvjs.
